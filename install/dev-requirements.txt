@@ -1,0 +1,24 @@
+# ============================================
+# BrainSec - Development Requirements
+# Generated: January 14, 2026
+# ============================================
+# Development and testing dependencies
+# Install with: pip install -r dev-requirements.txt
+# ============================================
+
+# Development Tools
+setuptools>=68.0.0
+ipython>=8.12.0
+jupyter>=1.0.0
+
+# Testing
+pytest>=7.4.0
+
+# Visualization & Documentation
+pydot>=2.0.0  # For tf.keras.utils.plot_model
+
+# Profiling (Optional)
+tensorboard-plugin-profile>=2.15.0
+
+# Virtual Environment Management
+virtualenv>=20.24.0

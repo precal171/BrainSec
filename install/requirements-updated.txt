@@ -1,0 +1,61 @@
+# ============================================
+# BrainSec - Updated Requirements
+# Generated: January 14, 2026
+# Python: 3.11+
+# ============================================
+# This file contains updated, secure dependencies
+# with pinned versions for reproducible builds.
+# See DEPENDENCY_AUDIT_REPORT.md for details.
+# ============================================
+
+# ============================================
+# Core Scientific Computing
+# ============================================
+numpy>=1.24.0,<2.0.0
+scipy>=1.17.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# ============================================
+# Image Processing
+# ============================================
+Pillow>=10.0.0
+scikit-image>=0.21.0
+opencv-python>=4.8.0
+pyvips>=2.2.0
+czifile>=2019.7.2  # For .czi file support
+
+# ============================================
+# Deep Learning Frameworks
+# ============================================
+# TensorFlow - Use CPU or GPU version based on your hardware
+# For CPU:
+tensorflow>=2.18.0
+
+# For GPU with CUDA support (comment out CPU version above):
+# tensorflow[and-cuda]>=2.18.0
+
+tensorboard>=2.18.0
+
+# PyTorch - Use CPU or GPU version based on your hardware
+# For CPU:
+torch>=2.4.0
+torchvision>=0.19.0
+
+# For GPU with CUDA (visit https://pytorch.org/get-started/locally/ for specific commands):
+# Example for CUDA 12.1:
+# torch>=2.4.0+cu121
+# torchvision>=0.19.0+cu121
+
+# ============================================
+# Utilities
+# ============================================
+tqdm>=4.66.0
+lxml>=5.0.0
+
+# ============================================
+# Optional: C++ Bindings
+# ============================================
+# Uncomment if needed for gSLICr integration
+# Verify necessity before installing
+# cppyy>=3.0.0
